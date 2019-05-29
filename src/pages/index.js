@@ -1,20 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../layout/Layout"
+import H1 from "../components/H1/H1"
+import Button from "../components/Button/Button"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <H1 isBig>
+      Hello
+      <span role="img" aria-label="singer">
+        👨‍🎤
+      </span>
+    </H1>
+    <Button width="250px" className="" as={Link} to="/about">
+      About Page
+    </Button>
   </Layout>
 )
 
