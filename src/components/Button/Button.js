@@ -15,7 +15,7 @@ const Button = styled.button`
   transition: box-shadow 0.3s ease;
 
   ${({ theme }) => theme.media.desktop} {
-    background: ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => theme.colors.dark};
   }
 
   :hover {
