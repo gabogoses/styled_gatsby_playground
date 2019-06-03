@@ -9,7 +9,7 @@ const Button = styled.button`
   height: 40px;
   border-radius: 50px;
   border: 2px solid ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.bubble};
+  color: ${({ theme }) => theme.colors.gabo};
   font-size: 1em;
   font-weight: 800;
   transition: box-shadow 0.3s ease;

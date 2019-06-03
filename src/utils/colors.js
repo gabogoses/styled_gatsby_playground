@@ -1,6 +1,6 @@
 export const colors = {
-  white: "#DEFFFC",
-  primary: "#86626E",
-  dark: "#872B49",
-  bubble: "#EAFFFD",
+  primary: "#FFFFF3",
+  secondary: "#566270",
+  dark: "#ffa1ac",
+  gabo: "#b7fbff",
 }
